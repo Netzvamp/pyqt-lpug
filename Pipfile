@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+hovercraft = "*"
+"d8a7d6a" = {file = "https://github.com/pyinstaller/pyinstaller/tarball/develop"}
+"pyqt5" = "*"
+"pypiwin32" = "*"
+"pywin32" = "*"
+"pywin32-ctypes" = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
